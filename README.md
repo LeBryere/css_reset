@@ -1,4 +1,4 @@
-# [LeBryere - 3D menu](https://github.com/LeBryere/css_reset)
+# [CSS Reset](https://github.com/LeBryere/css_reset)
 
 ## Preview
 
