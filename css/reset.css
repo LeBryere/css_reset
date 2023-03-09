@@ -1,4 +1,8 @@
-/* This selector targets many HTML elements and resets several 
+/* https://github.com/LeBryere/css_reset
+   v1.24 | 2023_03_08
+   License: MIT
+
+This selector targets many HTML elements and resets several 
 CSS properties to their initial values. This is commonly known 
 as a CSS reset or normalize. */
 html,
