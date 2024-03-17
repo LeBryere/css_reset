@@ -2,8 +2,8 @@
    v1.24 | 2023_03_08
    License: MIT
 
-This selector targets many HTML elements and resets several 
-CSS properties to their initial values. This is commonly known 
+This selector targets many HTML elements and resets several
+CSS properties to their initial values. This is commonly known
 as a CSS reset or normalize. */
 html,
 body,
@@ -98,8 +98,8 @@ video {
    margin-inline-end: 0px;
 }
 
-/* This comment explains that these elements had 
-different default display values in older versions of HTML, 
+/* This comment explains that these elements had
+different default display values in older versions of HTML,
 and this CSS rule sets them to display as blocks in HTML5. */
 article,
 aside,
@@ -137,7 +137,7 @@ q {
    quotes: none;
 }
 
-/* This rule removes the quotation marks by setting the 
+/* This rule removes the quotation marks by setting the
 content of the pseudo-elements to an empty string. */
 blockquote:before,
 blockquote:after,
@@ -159,8 +159,8 @@ img {
    max-width: 100%;
 }
 
-/* This creates a new block formatting context for elements 
-with the class "clearfix" by using the :before and :after 
+/* This creates a new block formatting context for elements
+with the class "clearfix" by using the :before and :after
 pseudo-elements to add an empty space. */
 .clearfix:before,
 .clearfix:after {
@@ -174,4 +174,34 @@ pseudo-elements to add an empty space. */
 
 .clearfix {
    *zoom: 1;
+}
+
+/* Sets display to grid for elements with the class "grid-container" */
+.grid-container {
+   display: grid;
+}
+
+/* Adds grid gap support for grid containers */
+.grid-container {
+   gap: 10px;
+}
+
+/* Adds grid column support for grid items */
+.grid-item {
+   grid-column: span 2;
+}
+
+/* Sets display to flex for elements with the class "flex-container" */
+.flex-container {
+   display: flex;
+}
+
+/* Sets the default flex direction to row for flex containers */
+.flex-container {
+   flex-direction: row;
+}
+
+/* Adds flexbox support for flex items */
+.flex-item {
+   flex: 1;
 }
