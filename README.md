@@ -25,7 +25,7 @@ This code is a CSS reset that targets several HTML elements. It resets margins, 
 import "css/reset.css";
 ```
 
-```
+```css
 html,
 body,
 div,
